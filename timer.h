@@ -37,7 +37,7 @@ public:
     /**
      * @brief reboot the timer to zero
      */
-    void reboot()
+    void reset()
     {
         elapsed_time = std::chrono::duration<double>::zero();
     }
@@ -118,7 +118,7 @@ public:
     /**
      * @brief reboot the timer to zero
      */
-    void reboot()
+    void reset()
     {
         this->timer_list.clear();
         this->list_size = 0;
